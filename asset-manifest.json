@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/pennies-converter/static/js/main.f2afc7c3.chunk.js",
+    "main.js.map": "/pennies-converter/static/js/main.f2afc7c3.chunk.js.map",
+    "runtime~main.js": "/pennies-converter/static/js/runtime~main.2ae67193.js",
+    "runtime~main.js.map": "/pennies-converter/static/js/runtime~main.2ae67193.js.map",
+    "static/js/2.d16ba94f.chunk.js": "/pennies-converter/static/js/2.d16ba94f.chunk.js",
+    "static/js/2.d16ba94f.chunk.js.map": "/pennies-converter/static/js/2.d16ba94f.chunk.js.map",
+    "index.html": "/pennies-converter/index.html",
+    "precache-manifest.9ec702259aa31e3422078e0ecb3863d7.js": "/pennies-converter/precache-manifest.9ec702259aa31e3422078e0ecb3863d7.js",
+    "service-worker.js": "/pennies-converter/service-worker.js"
+  }
+}
