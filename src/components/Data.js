@@ -38,8 +38,7 @@ class Data extends React.Component {
   };
   render() {
     return (
-      <div>
-        <div>
+      <div id="data-container">
           <form onSubmit={this.handleInputSubmit}>
             <label htmlFor="penniesInput">Pennies Input: </label>
             <input
@@ -50,7 +49,7 @@ class Data extends React.Component {
             />
             <button>Submit</button>
           </form>
-        </div>
+        <div id="results-container">
         <label>
           Dollars:
           <input type="text" value={this.state.dollars} />
@@ -71,6 +70,7 @@ class Data extends React.Component {
           Pennies:
           <input type="text" value={this.state.pennies} />
         </label>
+        </div>
       </div>
     );
   }
