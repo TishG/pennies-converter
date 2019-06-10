@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pennies-converter/static/css/main.0185e61d.chunk.css",
-    "main.js": "/pennies-converter/static/js/main.e5a7e6c9.chunk.js",
-    "main.js.map": "/pennies-converter/static/js/main.e5a7e6c9.chunk.js.map",
+    "main.css": "/pennies-converter/static/css/main.78349e87.chunk.css",
+    "main.js": "/pennies-converter/static/js/main.ba7de297.chunk.js",
+    "main.js.map": "/pennies-converter/static/js/main.ba7de297.chunk.js.map",
     "runtime~main.js": "/pennies-converter/static/js/runtime~main.2ae67193.js",
     "runtime~main.js.map": "/pennies-converter/static/js/runtime~main.2ae67193.js.map",
     "static/js/2.d16ba94f.chunk.js": "/pennies-converter/static/js/2.d16ba94f.chunk.js",
     "static/js/2.d16ba94f.chunk.js.map": "/pennies-converter/static/js/2.d16ba94f.chunk.js.map",
     "index.html": "/pennies-converter/index.html",
-    "precache-manifest.173dd322b2639f6f1e7d2ce6cb966c00.js": "/pennies-converter/precache-manifest.173dd322b2639f6f1e7d2ce6cb966c00.js",
+    "precache-manifest.75867b090bc6ff7dfff23f287f1c72ab.js": "/pennies-converter/precache-manifest.75867b090bc6ff7dfff23f287f1c72ab.js",
     "service-worker.js": "/pennies-converter/service-worker.js",
-    "static/css/main.0185e61d.chunk.css.map": "/pennies-converter/static/css/main.0185e61d.chunk.css.map"
+    "static/css/main.78349e87.chunk.css.map": "/pennies-converter/static/css/main.78349e87.chunk.css.map"
   }
 }
