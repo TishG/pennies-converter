@@ -1,5 +1,6 @@
 body {
   background-color: rgba(173, 111, 105, 0.5);
+  min-width: 328px;
 }
 
 #app {
@@ -46,10 +47,6 @@ body {
 }
 
 form,
-#results-container {
-  margin: 20px 0px;
-}
-
 label {
   display: inline-block;
   margin: 10px 0px;

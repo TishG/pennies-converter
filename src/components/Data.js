@@ -52,23 +52,23 @@ class Data extends React.Component {
         <div id="results-container">
         <label>
           Dollars:
-          <input type="text" value={this.state.dollars} />
+          <input type="text" value={this.state.dollars} readOnly/>
         </label>
         <label>
           Quarters:
-          <input type="text" value={this.state.quarters} />
+          <input type="text" value={this.state.quarters} readOnly/>
         </label>
         <label>
           Dimes:
-          <input type="text" value={this.state.dimes} />
+          <input type="text" value={this.state.dimes} readOnly/>
         </label>
         <label>
           Nickels:
-          <input type="text" value={this.state.nickels} />
+          <input type="text" value={this.state.nickels} readOnly/>
         </label>
         <label>
           Pennies:
-          <input type="text" value={this.state.pennies} />
+          <input type="text" value={this.state.pennies} readOnly/>
         </label>
         </div>
       </div>
