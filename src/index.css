@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(173,111,105, 0.5);
+  background-color: rgba(173, 111, 105, 0.5);
 }
 
 #app {
@@ -7,42 +7,42 @@ body {
 }
 
 #app h1 {
-    position: relative;
-    animation-name: title;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+  position: relative;
+  animation-name: title;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes title {
-    0% {
-        top: -70px;
-    }
-    100% {
-        top: 0px;
-    } 
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 #app h3 {
-    position: relative;
-    left: -400px;
-    animation-name: appdescription;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+  position: relative;
+  left: -400px;
+  animation-name: appdescription;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes appdescription {
-    0% {
-        left: -400px;
-    }
-    100% {
-        left: 0px;
-    }
-} 
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0px;
+  }
+}
 
 #results-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 form,
@@ -56,22 +56,44 @@ label {
 }
 
 #data-container form button {
-    border-radius: 3px;
-    border: 1px solid rgb(199,199,199);
-    color: rgb(40,40,40);
-    background-color: rgb(225,225,225);
-    height: 21.5px;
-    transition-property: background-color;
-    transition-duration: 1s;
+  border-radius: 3px;
+  border: 1px solid rgb(199, 199, 199);
+  color: rgb(40, 40, 40);
+  background-color: rgb(225, 225, 225);
+  height: 21.5px;
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 
-#data-container form button:hover { 
-    background-color: rgb(200,200,200);
-    cursor: pointer;
+#data-container form button:hover {
+  background-color: rgb(200, 200, 200);
+  cursor: pointer;
 }
 
 @media (min-width: 1096px) {
   #results-container {
     flex-direction: row;
+  }
+}
+
+#app h3,
+#app h1 {
+  animation-duration: 4s;
+}
+
+@keyframes title {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes appdescription {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
   }
 }
