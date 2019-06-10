@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pennies-converter/precache-manifest.ded185d319892b65f097cbc9773d7c6b.js"
+  "/pennies-converter/precache-manifest.173dd322b2639f6f1e7d2ce6cb966c00.js"
 );
 
 self.addEventListener('message', (event) => {
